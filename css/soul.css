@@ -11,7 +11,7 @@ img {
 
 /* reset css */
 
-@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 /* font */
 
@@ -105,17 +105,22 @@ img {
     margin-top: 150px;
     border: none;
     background: #fba131;
-    font-family: 'New Tegomin', serif;
-    -webkit-font-family: 'New Tegomin', serif;
+    font-family: 'Noto Sans KR', sans-serif;
     color: #fff;
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 3px;
-    line-height: 1.85;
+    line-height: 1.9;
     border-radius: 15px;
+}
+
+input { 
     appearance: none; 
     -moz-appearance: none; 
     -webkit-appearance: none; 
+    border-radius: 0; 
+    -webkit-border-radius: 0; 
+    -moz-border-radius: 0; 
 }
 
 
