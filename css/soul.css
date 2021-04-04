@@ -60,6 +60,9 @@ img {
     /* padding-top: 20%; */
     z-index: 999;
 }
+.trailer > video:focus {
+    outline: none;
+}
 
 /* event */
 
