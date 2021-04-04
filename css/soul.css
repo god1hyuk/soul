@@ -11,6 +11,10 @@ img {
 
 /* reset css */
 
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+/* font */
+
 
 .jp-landing-pc {
     max-width: 1920px;
@@ -101,7 +105,7 @@ img {
     margin-top: 150px;
     border: none;
     background: #fba131;
-    -webkit-background: #fba131; 
+    font-family: 'New Tegomin', serif;
     color: #fff;
     font-size: 3.5rem;
     font-weight: 700;
