@@ -1,8 +1,18 @@
 @import url('reset.css');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
 /* reset css */
 
-.content-wrap {
+
+.jp-landing-pc {
     max-width: 1920px;
     min-width: 1100px;
     margin: 0 auto;
@@ -11,37 +21,35 @@
 /* main poster */
 
 .main-poster {
-    background-image: url(../images/image_01.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    height: 2150px;
+    position: relative;
+    background: url(../images/image_01.jpg) no-repeat center 0;
+    /* background-size: 100%;
+    height: 2850px; */
+    height: 3280px;
 }
 
 /* synopsis */
 
 .synopsis {
-    background-image: url(../images/image_02.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    height: 810px;
+    position: relative;
+    background: url(../images/image_02.jpg) no-repeat center 0;
+    height: 1240px;
 }
 
 /* trailer */
 
 .trailer {
-    background-image: url(../images/image_03.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    height: 1107px;
+    position: relative;
+    background: url(../images/image_03.jpg) no-repeat center 0;
+    height: 1692px;
 }
 .trailer > video {
     display: block;
-    width: 60%;
+    width: 1300px;
+    /* width: 65%; */
     margin: 0 auto;
-    padding-top: 18%;
+    padding-top: 390px;
+    /* padding-top: 20%; */
     z-index: 999;
 }
 
@@ -49,38 +57,35 @@
 
 .event {
     position: relative;
-    background-image: url(../images/image_04.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    height: 4010px;
+    background: url(../images/image_04.jpg) no-repeat center 0;
+    height: 6134px;
 }
 
 /* personal information */
 
 
 .p-info {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
-    padding-top: 2750px;
+    padding-top: 4300px;
     z-index: 999;
 }
 .info-flex {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 50px 0;
 }
 .info-flex > p {
     display: flex;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     font-weight: 500;
     color: #fff;
 }
 .info-flex > input {
     width: 75%;
-    height: 80px;
-    font-size: 1.5rem;
+    height: 100px;
+    font-size: 2rem;
     border: none;
 }
 .info-flex > input:focus {
@@ -91,72 +96,83 @@
 .enter-btn {
     display: block;
     width: 35%;
-    height: 90px;
+    height: 100px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
     border: none;
     background: #fba131;
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: 3px;
-    line-height: 1.9;
-    border-radius: 10px;
+    line-height: 1.85;
+    border-radius: 15px;
 }
 
 
 /* notice */
 
 .notice {
-    background-image: url(../images/image_05.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    height: 595px;
+    position: relative;
+    background: url(../images/image_05.jpg) no-repeat center 0;
+    height: 900px;
 }
 
 
-/* @media (max-width: 1366px) {
+
+
+
+@media (max-width: 1301px) {
     .main-poster {
-        height: 2050px;
+        background-size: 100%;
+        height: 1950px;
     }
     .synopsis {
-        height: 770px;
+        background-size: 130%;
+        height: 950px;
     }
     .trailer {
-        height: 1051px;
+        background-size: 130%;
+        height: 1300px;
+    }
+    .trailer > video {
+        width: 1000px;
+        padding-top: 300px;
     }
     .event {
-        height: 3809px;
+        background-size: 130%;
+        height: 4714px;
     }
     .p-info {
-        padding-top: 2600px;
+        padding-top: 3200px;
     }
     .notice {
-        height: 564px;
+        background-size: 130%;
+        height: 690px;
     }
-} */
-
+}
+ 
 @media (max-width: 1024px) {
     .main-poster {
         height: 1650px;
     }
     .synopsis {
-        height: 620px;
+        height: 805px;
     }
     .trailer {
-        height: 845px;
+        height: 1100px;
+    }
+    .trailer > video {
+        width: 800px;
+        padding-top: 250px;
     }
     .event {
-        height: 3066px;
-    }
-    .notice {
-        height: 456px;
+        height: 3986px;
     }
     .p-info {
-        padding-top: 2050px;
+        padding-top: 2650px;
     }
-    .info-flex > p {
-        font-size: 1.5rem;
+    .notice {
+        height: 580px;
     }
 }
