@@ -101,6 +101,7 @@ img {
     margin-top: 150px;
     border: none;
     background: #fba131;
+    -webkit-background: #fba131; 
     color: #fff;
     font-size: 3.5rem;
     font-weight: 700;
