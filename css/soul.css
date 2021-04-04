@@ -9,6 +9,19 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+input { 
+    appearance: none; 
+    -moz-appearance: none; 
+    -webkit-appearance: none; 
+    border-radius: 0; 
+    -webkit-border-radius: 0; 
+    -moz-border-radius: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
 img {
     width: 100%;
 }
@@ -120,14 +133,6 @@ img {
     border-radius: 15px;
 }
 
-input { 
-    appearance: none; 
-    -moz-appearance: none; 
-    -webkit-appearance: none; 
-    border-radius: 0; 
-    -webkit-border-radius: 0; 
-    -moz-border-radius: 0; 
-}
 
 
 /* notice */
